@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hint_UserName">Nombre Usuario</string>
+    <string name="hint_Password">Contraseña</string>
+    <string name="strLogin">Login</string>
+    <string name="strNoTieneCuenta">No tiene cuenta?</string>
+    <string name="strCreaUna">Cree una aquí</string>
+    <string name="strEtiqLogo">arteLista</string>
+    <string name="stremail">Correo</string>
+</resources>

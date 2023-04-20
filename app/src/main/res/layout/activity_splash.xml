@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gris"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity_SplashScreen">
+
+    <ImageView
+        android:id="@+id/imgArteLista"
+        android:layout_width="241dp"
+        android:layout_height="223dp"
+        android:background="@drawable/logo_artelista" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/rosa2"
+        android:layout_marginTop="@dimen/margen1"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="@string/app_name"/>
+</LinearLayout>
