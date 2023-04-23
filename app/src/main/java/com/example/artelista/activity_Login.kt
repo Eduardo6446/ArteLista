@@ -20,13 +20,13 @@ class activity_Login : AppCompatActivity() {
         setContentView(view)
 
         val btnIniciar: Button = binding.btnLogin
-        btnIniciar.setOnClickListener({v ->
+        btnIniciar.setOnClickListener({ v ->
             val intent = Intent(v.getContext(), Activity_menu::class.java)
             startActivity(intent)
         })
 
         val tvCrear: TextView = binding.tvCreaUnaAqui
-        tvCrear.setOnClickListener({v ->
+        tvCrear.setOnClickListener({ v ->
             val intent = Intent(v.getContext(), activity_crearcuenta::class.java)
             startActivity(intent)
         })

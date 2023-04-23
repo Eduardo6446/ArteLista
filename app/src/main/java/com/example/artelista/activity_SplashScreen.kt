@@ -12,8 +12,7 @@ class activity_SplashScreen : AppCompatActivity() {
     private lateinit var binding: ActivitySplashBinding
     override fun onCreate(savedInstanceState: Bundle?) {
 
-        try
-        {
+        try {
             super.onCreate(savedInstanceState)
 
             binding = ActivitySplashBinding.inflate(layoutInflater)
@@ -22,15 +21,15 @@ class activity_SplashScreen : AppCompatActivity() {
             setContentView(view)
 
             //Agregamos la referencia al Imageview
-            val LogoApp:ImageView = binding.imgArteLista
-            val AnimLogo:Animation = AnimationUtils.loadAnimation(this, R.anim.anim1)
+            val LogoApp: ImageView = binding.imgArteLista
+            val AnimLogo: Animation = AnimationUtils.loadAnimation(this, R.anim.anim1)
             LogoApp.startAnimation(AnimLogo)
 
             //Intent para crear instancia de la activity Login
             //val intent = Intent(this, activity_Login::class.java)
             val intent = Intent(this, activity_Login::class.java)
 
-            AnimLogo.setAnimationListener(object: Animation.AnimationListener{
+            AnimLogo.setAnimationListener(object : Animation.AnimationListener {
                 override fun onAnimationStart(animation: Animation?) {
                 }
 
@@ -44,9 +43,9 @@ class activity_SplashScreen : AppCompatActivity() {
                 }
             })
 
+        } catch (e: java.lang.Exception) {
+            e.printStackTrace()
         }
-        catch (e:java.lang.Exception){
-            e.printStackTrace() }
 
     }
 }
