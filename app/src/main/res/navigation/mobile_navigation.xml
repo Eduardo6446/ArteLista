@@ -25,7 +25,7 @@
 
     <fragment
         android:id="@+id/navArtista"
-        android:name="com.example.artelista.ui.artista.fragmentArtista"
+        android:name="com.example.art"
         android:label="hola"
         tools:layout="@layout/fragment_home" />
 </navigation>

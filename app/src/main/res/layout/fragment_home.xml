@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:text="Enamorados del Arte desde 2004"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textSize="@dimen/tamtexto4"
         android:textStyle="bold"
         android:gravity="center_horizontal" />
 
@@ -25,7 +25,7 @@
         android:textAlignment="center"
         android:text="1,001,937 obras de Arte 143,544 artistas"
         android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textSize="@dimen/tamtexto3"
         android:textStyle="bold"
         android:gravity="center_horizontal" />
 

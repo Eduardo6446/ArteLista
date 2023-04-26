@@ -9,7 +9,6 @@ import android.view.ViewGroup
 import com.example.artelista.R
 
 class fragmentArtista : Fragment() {
-
     companion object {
         fun newInstance() = fragmentArtista()
     }
