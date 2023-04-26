@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navHome"
+        android:icon="@drawable/ic_home"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/navGaleria"
+        android:icon="@drawable/ic_arte"
+        android:title="Galeria" />
+
+    <item
+        android:id="@+id/navEvento"
+        android:icon="@drawable/ic_evento"
+        android:title="Evento" />
+
+    <item
+        android:id="@+id/navArtista"
+        android:icon="@drawable/ic_artista"
+        android:title="Artista" />
+
+</menu>

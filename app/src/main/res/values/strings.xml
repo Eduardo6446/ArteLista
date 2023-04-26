@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Amongs xd</string>
+    <string name="hint_UserName">Nombre Usuario</string>
+    <string name="hint_Password">Contraseña</string>
+    <string name="strLogin">Login</string>
+    <string name="strNoTieneCuenta">No tiene cuenta?</string>
+    <string name="strCreaUna">Cree una aquí</string>
+    <string name="strEtiqLogo">arteLista</string>
+    <string name="stremail">Correo</string>
+    <string name="title_activity_menu">activity_menu</string>
+    <string name="strConfirmarCuenta">Confirmar Password</string>
+
+    <!-- Opciones del menú -->
+    <string name="strTituloMenu" translatable="false">Among menu</string>
+    <string name="strHome">Inicio</string>
+    <string name="strGaleria">Galería</string>
+    <string name="strEvento">Evento</string>
+    <string name="strArtista">Artista</string>
+    <string name="strNombreArtista">Nombre</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="transition_galeriadet">transicion_galeriadet</string>
+    <string name="strTituloArte">La Noche Mágica</string>
+    <string name="strLikeMeGusta">8 Me gusta</string>
+    <string name="strPrecioArte">1,200</string>
+    <string name="strMoneda">C$</string>
+
+    <!-- Pantalla galería detalle -->
+    <string name="strCategoriaGaleria">Arte en Oleo</string>
+    <string name="strDescripcionGaleria">lorem xd</string>
+
+    <!-- Pantalla evento -->
+    <string name="strTituloEvento">holi</string>
+    <string name="strCategoriaEvento">Arte en Oleo</string>
+    <string name="strUbicacionEvento">Palacio de la Cultura</string>
+    <string name="strDireccionEvento"> Managua, Nicaragua</string>
+    <string name="strSitioWebEvento">www.uni.edu.ni</string>
+    <string name="strTelefonoEvento">123456789</string>
+    <!-- fin -->
+</resources>
