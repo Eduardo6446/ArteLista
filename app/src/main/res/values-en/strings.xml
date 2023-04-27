@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArteLista</string>
+    <string name="hint_UserName">Username</string>
+    <string name="hint_Password">Password</string>
+    <string name="strLogin">Login</string>
+    <string name="strNoTieneCuenta">You do not have an account</string>
+    <string name="strCreaUna">Create one here</string>
+    <string name="strEtiqLogo">arteLista</string>
+    <string name="stremail">Email</string>
+    <string name="strConfirmarCuenta">Confirm Password</string>
+    <string name="title_activity_menu">activity_menu</string>
+    <string name="strEvento">Event</string>
+    <string name="strHome">Init</string>
+    <string name="strGaleria">Galery</string>
+    <string name="strArtista">Artist</string>
+
+    <string name="strNombreArtista">Rafael Pérez</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="transition_galeriadet">transicion_galeriadet</string>
+    <string name="strTituloArte">La Noche Mágica</string>
+    <string name="strLikeMeGusta">8 Me gusta</string>
+    <string name="strPrecioArte">1,200</string>
+    <string name="strMoneda">C$</string>
+
+    <!-- Pantalla galería detalle -->
+    <string name="strCategoriaGaleria">Arte en Oleo</string>
+    <string name="strDescripcionGaleria">Nací en la capital de Nicaragua, mi pasión ha sido la pintura en Oleo, siendo mis favoritas las pinturas en oleo. Durante niño me inicié en la pintura de forma nata, luego fui perfeccionando mi técnica en escuelas profesionales. Tengo mas de 10 años de experiencia en pintura.</string>
+
+    <!-- Pantalla evento -->
+    <string name="strTituloEvento">Exposición Primavera en Oleo</string>
+    <string name="strCategoriaEvento">Arte en Oleo</string>
+    <string name="strUbicacionEvento">Palacio de la Cultura</string>
+    <string name="strDireccionEvento">Distrito 1. Managua, Nicaragua</string>
+    <string name="strSitioWebEvento">www.uni.edu.ni</string>
+    <string name="strTelefonoEvento">22705126</string>
+    <!-- fin -->
+</resources>
