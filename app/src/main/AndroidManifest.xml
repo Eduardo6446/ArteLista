@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.INTERNET" />
-
+    <uses-permission android:name="android.permission.INTERNET"/>
     <application
         android:allowBackup="true"
         android:dataExtractionRules="@xml/data_extraction_rules"
@@ -13,25 +12,24 @@
         android:theme="@style/Theme.ArteLista"
         tools:targetApi="31">
         <activity
-            android:name=".Activity_menu"
+            android:name=".activity_menu"
             android:exported="false"
-            android:label="@string/strTituloMenu"
+            android:label="@string/title_activity_menu"
             android:theme="@style/Theme.ArteLista2"/>
         <activity
             android:name=".activity_crearcuenta"
             android:exported="false"
-            android:theme="@style/Theme.ArteLista2" />
-
-        <meta-data
-            android:name="android.support.PARENT_ACTIVITY"
-            android:value=".activity_Login" />
-
+            android:theme="@style/Theme.ArteLista2">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".activity_Login" />
+        </activity>
         <activity
             android:name=".activity_Login"
             android:exported="false"
             android:theme="@style/Theme.ArteLista2" />
         <activity
-            android:name=".activity_SplashScreen"
+            android:name=".activity_splash"
             android:exported="true"
             android:theme="@style/Theme.ArteLista2">
             <intent-filter>

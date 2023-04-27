@@ -39,15 +39,25 @@
         <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
     <style name="Theme.Overlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
     <style name="DialogStyle" parent="Theme.AppCompat.Light.Dialog">
         <item name="android:windowNoTitle">true</item>
-        <item name="colorPrimary">@color/rosa1</item>
-        <item name="colorPrimaryDark">@color/rosa2</item>
+        <item name="colorPrimary">@color/primary_color</item>
+        <item name="colorPrimaryDark">@color/primary_variant</item>
         <item name="android:windowFullscreen">false</item>
         <item name="android:windowIsFloating">false</item>
         <item name="android:windowBackground">@color/white</item>
         <item name="android:windowEnterAnimation">@android:anim/slide_in_left</item>
         <item name="android:windowExitAnimation">@android:anim/slide_out_right</item>
     </style>
+
+    <style name="Theme.ArteLista.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ArteLista.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ArteLista.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

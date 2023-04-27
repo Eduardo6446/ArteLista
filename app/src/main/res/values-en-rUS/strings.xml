@@ -9,4 +9,6 @@
     <string name="strCreaUna">Click here</string>
     <string name="strEtiqLogo">arteLista</string>
     <string name="stremail">email</string>
+    <string name="strCategiriaArtista">Artista Plastico</string>
+    <string name="strPaisArtista">Nicaragua</string>
 </resources>

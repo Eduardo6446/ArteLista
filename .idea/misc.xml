@@ -3,16 +3,16 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/eduor/AndroidStudioProjects/ArteLista2/app/src/main/res/drawable/ic_launcher_background.xml" value="0.132" />
-        <entry key="..\:/Users/eduor/AndroidStudioProjects/ArteLista2/app/src/main/res/layout/activity_crearcuenta.xml" value="0.12135416666666667" />
-        <entry key="..\:/Users/eduor/AndroidStudioProjects/ArteLista2/app/src/main/res/layout/activity_login.xml" value="0.12135416666666667" />
-        <entry key="..\:/Users/eduor/AndroidStudioProjects/ArteLista2/app/src/main/res/layout/activity_main.xml" value="0.22" />
-        <entry key="..\:/Users/eduor/AndroidStudioProjects/ArteLista2/app/src/main/res/layout/activity_menu.xml" value="0.2" />
-        <entry key="..\:/Users/eduor/AndroidStudioProjects/ArteLista2/app/src/main/res/layout/activity_splash.xml" value="0.18" />
-        <entry key="..\:/Users/eduor/AndroidStudioProjects/ArteLista2/app/src/main/res/layout/fragment_dashboard.xml" value="0.2" />
-        <entry key="..\:/Users/eduor/AndroidStudioProjects/ArteLista2/app/src/main/res/layout/fragment_fragment_artista.xml" value="0.2" />
-        <entry key="..\:/Users/eduor/AndroidStudioProjects/ArteLista2/app/src/main/res/layout/fragment_home.xml" value="0.2" />
-        <entry key="..\:/Users/eduor/AndroidStudioProjects/ArteLista2/app/src/main/res/menu/bottom_nav_menu.xml" value="0.2" />
+        <entry key="..\:/Users/eduor/Downloads/ArteLista2/app/src/main/res/layout/activity_login.xml" value="0.16" />
+        <entry key="..\:/Users/eduor/Downloads/ArteLista2/app/src/main/res/layout/activity_main.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/eduor/Downloads/ArteLista2/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/eduor/Downloads/ArteLista2/app/src/main/res/layout/fragment_artista.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/eduor/Downloads/ArteLista2/app/src/main/res/layout/fragment_artistadet.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/eduor/Downloads/ArteLista2/app/src/main/res/layout/fragment_dashboard.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/eduor/Downloads/ArteLista2/app/src/main/res/layout/fragment_galeriadet.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/eduor/Downloads/ArteLista2/app/src/main/res/layout/fragment_home.xml" value="0.15572916666666667" />
+        <entry key="..\:/Users/eduor/Downloads/ArteLista2/app/src/main/res/layout/fragment_ubicacion.xml" value="0.1" />
+        <entry key="..\:/Users/eduor/Downloads/ArteLista2/app/src/main/res/layout/item_evento.xml" value="0.15572916666666667" />
       </map>
     </option>
   </component>

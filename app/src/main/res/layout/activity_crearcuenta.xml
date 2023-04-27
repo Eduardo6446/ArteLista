@@ -13,49 +13,78 @@
         android:layout_marginTop="@dimen/tam2"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintTop_toTopOf="parent">
-
-        <androidx.appcompat.widget.Toolbar
-            android:id="@+id/tbCrearCuenta"
-            android:layout_height="wrap_content"
-            android:layout_width="match_parent"></androidx.appcompat.widget.Toolbar>
-
+       <androidx.appcompat.widget.Toolbar
+           android:id="@+id/tvCreaUnaAqui"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+       </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
+
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/tvEmailCuenta"
         android:layout_width="match_parent"
         android:layout_height="@dimen/margen6"
-        android:layout_marginLeft="@dimen/margen4"
-        android:layout_marginRight="@dimen/margen4"
-        android:background="@color/gris"
-        android:drawableLeft="@drawable/ic_user"
         android:hint="@string/stremail"
-        android:paddingLeft="@dimen/margen1"
         android:textColor="@color/rosa1"
         android:textColorHint="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="1.0"
+        android:paddingLeft="@dimen/margen1"
+        android:background="@color/gris"
+        android:drawableLeft="@drawable/ic_user"
+        android:layout_marginRight="@dimen/margen4"
+        android:layout_marginLeft="@dimen/margen4"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.286" />
+        app:layout_constraintVertical_bias="0.2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.google.android.material.textfield.TextInputEditText
         android:id="@+id/tvPasswordCuenta"
         android:layout_width="match_parent"
         android:layout_height="@dimen/margen6"
         android:layout_marginLeft="@dimen/margen4"
-        android:layout_marginTop="116dp"
         android:layout_marginRight="@dimen/margen4"
         android:background="@color/gris"
         android:drawableLeft="@drawable/ic_user"
         android:hint="@string/hint_Password"
+        android:layout_marginTop="@dimen/margen1"
         android:paddingLeft="@dimen/margen1"
         android:textColor="@color/rosa1"
         android:textColorHint="@color/black"
-        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmailCuenta"
+        app:layout_constraintHorizontal_bias="0.2"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tvEmailCuenta" />
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/tvConPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margen6"
+        android:hint="@string/strConfirmarCuenta"
+        android:textColor="@color/rosa1"
+        android:textColorHint="@color/black"
+        android:paddingLeft="@dimen/margen1"
+        android:background="@color/gris"
+
+        android:layout_marginTop="@dimen/margen1"
+        android:layout_marginRight="@dimen/margen4"
+        android:layout_marginLeft="@dimen/margen4"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tvPasswordCuenta"
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margen6"
+        android:hint="@string/strConfirmarCuenta"
+        android:textColor="@color/white"
+        android:backgroundTint="@color/rosa1"
+        android:layout_marginLeft="@dimen/margen3"
+        android:layout_marginRight="@dimen/margen3"
+        android:layout_marginTop="@dimen/margen1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvConPassword"
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

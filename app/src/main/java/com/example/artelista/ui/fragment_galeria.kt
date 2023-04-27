@@ -7,7 +7,7 @@ import androidx.fragment.app.Fragment
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import com.example.artelista.R
-import com.example.artelista.adapter.adaptergaleria
+import com.example.artelista.adapter.adapter_galeria
 import com.example.artelista.databinding.FragmanetGaleriaBinding
 import com.example.artelista.model.galeria
 
@@ -27,7 +27,7 @@ class fragment_galeria : Fragment() {
         //-----------------
         val reciclergaleria :RecyclerView =  fbinding!!.rGaleria
         reciclergaleria.layoutManager = LinearLayoutManager(context)
-        val adaptergaleria = adaptergaleria(getGaleria(), R.layout.item_galeria, Activity())
+        val adaptergaleria = adapter_galeria(getGaleria(), R.layout.item_galeria, Activity())
         reciclergaleria.adapter = adaptergaleria
         return view
     }
