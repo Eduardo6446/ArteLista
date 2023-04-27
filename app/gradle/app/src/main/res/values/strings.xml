@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">ArteLista</string>
+    <string name="hint_UserName">Nombre Usuario</string>
+    <string name="hint_Password">Contraseña</string>
+    <string name="strLogin">Login</string>
+    <string name="strNoTieneCuenta">No tiene cuenta?</string>
+    <string name="strCreaUna">Cree una aquí</string>
+    <string name="strEtiqLogo">arteLista</string>
+    <string name="stremail">Correo</string>
+    <string name="title_activity_menu">Activity_menu</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <!-- Opciones del menú -->
+    <string name="strTituloMenu">ArteLista</string>
+    <string name="strHome">Inicio</string>
+    <string name="strGaleria">Galería</string>
+    <string name="strEvento">Evento</string>
+    <string name="strArtista">Artista</string>
+    <string name="strNombreArtista">Rafael Pérez</string>
+
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="transition_galeriadet">transicion_galeriadet</string>
+    <string name="strTituloArte">La Noche Mágica</string>
+    <string name="strLikeMeGusta">8 Me gusta</string>
+    <string name="strPrecioArte">1,200</string>
+    <string name="strMoneda">C$</string>
+
+    <!-- Pantalla galería detalle -->
+    <string name="strCategoriaGaleria">Arte en Oleo</string>
+    <string name="strDescripcionGaleria">Nací en la capital de Nicaragua, mi pasión ha sido la pintura en Oleo, siendo mis favoritas las pinturas en oleo. Durante niño me inicié en la pintura de forma nata, luego fui perfeccionando mi técnica en escuelas profesionales. Tengo mas de 10 años de experiencia en pintura.</string>
+
+    <!-- Pantalla evento -->
+    <string name="strTituloEvento">Exposición Primavera en Oleo</string>
+    <string name="strCategoriaEvento">Arte en Oleo</string>
+    <string name="strUbicacionEvento">Palacio de la Cultura</string>
+    <string name="strDireccionEvento">Distrito 1. Managua, Nicaragua</string>
+    <string name="strSitioWebEvento">www.uni.edu.ni</string>
+    <string name="strTelefonoEvento">22705126</string>
+    <!-- fin -->
+</resources>
