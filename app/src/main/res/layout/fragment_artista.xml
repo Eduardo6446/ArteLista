@@ -22,9 +22,15 @@
 
             <TextView
                 android:id="@+id/tvToolArtista"
+                android:textStyle="bold"
+                android:background="@color/white"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/strArtista" />
+                android:textSize="@dimen/tamtexto3"
+                android:text="@string/tvToolArtista">
+
+
+            </TextView>
         </androidx.appcompat.widget.Toolbar>
     </com.google.android.material.appbar.AppBarLayout>
 
@@ -34,8 +40,9 @@
         android:layout_height="match_parent"
         android:layout_marginTop="@dimen/tam1"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_contraintTop_toBottomOf="@+id/abArtista">
+
+        app:layout_constraintRight_toRightOf="parent">
+
     </androidx.recyclerview.widget.RecyclerView>
 
 </FrameLayout>

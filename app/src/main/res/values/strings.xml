@@ -27,6 +27,7 @@
     <string name="strMoneda">C$</string>
 
     <!-- Pantalla galería detalle -->
+    <string name="tvToolArtista" translatable="false">Hamlet Gatito</string>
     <string name="strCategoriaGaleria">Arte en Oleo</string>
     <string name="strDescripcionGaleria">lorem xd</string>
 
