@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="margenizq">15dp</dimen>
+    <dimen name="margender">15dp</dimen>
+    <dimen name="margentop">15dp</dimen>
+    <dimen name="margentop1">50dp</dimen>
+    <dimen name="margen5">5dp</dimen>
+    <dimen name="margen1">15dp</dimen>
+    <dimen name="margen2">20dp</dimen>
+    <dimen name="margen3">25dp</dimen>
+    <dimen name="margen4">30dp</dimen>
+    <dimen name="margen6">50dp</dimen>
+    <dimen name="margen7">100dp</dimen>
+    <dimen name="margen8">10dp</dimen>
+    <dimen name="tamtexto1">12sp</dimen>
+    <dimen name="tamtexto2">18sp</dimen>
+    <dimen name="tam1">2dp</dimen>
+    <dimen name="tam2">1dp</dimen>
+    <dimen name="tam3">250dp</dimen>
+    <dimen name="tam4">350dp</dimen>
+    <dimen name="tamTexto3">24sp</dimen>
+    <dimen name="tamTexto4">36sp</dimen>
+    <dimen name="tamTexto5">14sp</dimen>
+</resources>

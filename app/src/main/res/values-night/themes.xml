@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.Laboratorio4" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <!--Primary Brand Color -->
+        <item name="colorPrimary">@color/Naranja1</item>
+        <item name="colorPrimaryVariant">@color/Naranja2</item>
+        <item name="colorOnPrimary">@color/teal_200</item>
+        <!--Secondary Brand Color -->
+        <item name="colorSecondary">@color/Rosa1</item>
+        <item name="colorSecondaryVariant">@color/Rosa2</item>
+        <item name="colorOnSecondary">@color/white</item>
+        <!-- Status Bar Color -->
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+    </style>
+</resources>
