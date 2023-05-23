@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.evento.LocationDetailsFragment"
+     app:startDestination="@+id/navigation_home">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id = "@+id/apUbicacionDet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/tam1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/tbUbicacionDet"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ImageView
+        android:id="@+id/imgubicacion"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/tam4"
+        android:background="@drawable/img_palacio"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/apUbicacionDet"></ImageView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardDatosUbicacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/tam1"
+        app:cardCornerRadius="@dimen/margen5"
+        app:cardElevation="@dimen/tam1"
+        app:layout_constraintTop_toBottomOf="@+id/imgubicacion"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintLeft_toRightOf="parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tvLugarEvento"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margen4"
+                android:gravity="center_horizontal"
+                android:padding="@dimen/margen5"
+                android:text="@string/strUbicacionEvento"
+                android:textColor="@color/Rosa1"
+                android:textSize="@dimen/tamtexto2" />
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvDireccionEvento"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margen4"
+                android:drawableLeft="@drawable/ic_location"
+                android:gravity="center|left"
+                android:paddingLeft="@dimen/margen8"
+                android:text="@string/strDireccionEvento"></com.google.android.material.textview.MaterialTextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gris"></View>
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvSitioWebEvento"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margen4"
+                android:drawableLeft="@drawable/ic_web"
+                android:gravity="center|left"
+                android:paddingLeft="@dimen/margen8"
+                android:text="@string/strSitioWebEvento"></com.google.android.material.textview.MaterialTextView>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/gris"></View>
+            <com.google.android.material.textview.MaterialTextView
+                android:id="@+id/tvTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/margen4"
+                android:drawableLeft="@drawable/ic_phone"
+                android:gravity="center|left"
+                android:paddingLeft="@dimen/margen8"
+                android:text="@string/strTelefonoEvento"></com.google.android.material.textview.MaterialTextView>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

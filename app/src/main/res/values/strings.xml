@@ -1,43 +1,51 @@
 <resources>
-    <string name="app_name">Amongs xd</string>
-    <string name="hint_UserName">Nombre Usuario</string>
-    <string name="hint_Password">Contraseña</string>
+    <string name="app_name">ArteLista</string>
+    <string name="Register">Register here</string>
+    <string name="QMark">No account?</string>
+    <string name="HintCreate">Create Account</string>
+    <string name="hint_UserName">User name:</string>
+    <string name="hint_Password">Password:</string>
     <string name="strLogin">Login</string>
-    <string name="strNoTieneCuenta">No tiene cuenta?</string>
-    <string name="strCreaUna">Cree una aquí</string>
-    <string name="strEtiqLogo">arteLista</string>
-    <string name="stremail">Correo</string>
-    <string name="title_activity_menu">activity_menu</string>
-    <string name="strConfirmarCuenta">Confirmar Password</string>
-
-    <!-- Opciones del menú -->
-    <string name="strTituloMenu" translatable="false">Among menu</string>
-    <string name="strHome">Inicio</string>
-    <string name="strGaleria">Galería</string>
-    <string name="strEvento">Evento</string>
-    <string name="strArtista">Artista</string>
-    <string name="strNombreArtista">Eduardo Vargas</string>
-
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="transition_galeriadet">transicion_galeriadet</string>
-    <string name="strTituloArte">La Noche Mágica</string>
-    <string name="strLikeMeGusta">8 Me gusta</string>
+    <string name="stremail">E-mail</string>
+    <string name="strCrearCuenta">Create account</string>
+    <string name="ConfirmarPW">Confirm Password</string>
+    <string name="CreateHeader">Create Account</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_home">Home</string>
+    <string name="title_Arte">Art</string>
+    <string name="title_eventos">Events</string>
+    <string name="title_artista">Artist</string>
+    <string name="strGaleria">Galery</string>
+    <!--Strings -->
+    <string name="strNombreArtista">Rafael Pérez</string>
+    <string name="strTituloArte">The Magic Night</string>
+    <string name="strLikeMeGusta">8 Likes</string>
     <string name="strPrecioArte">1,200</string>
     <string name="strMoneda">C$</string>
-
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment" translatable="false">Hello blank fragment</string>
+    <string name="transition_galeriadet">transicion_galeriadet</string>
     <!-- Pantalla galería detalle -->
-    <string name="strCategoriaGaleria">Arte en Oleo</string>
-    <string name="strDescripcionGaleria">lorem xd</string>
+    <string name="strCategoriaGaleria">Oil art</string>
+    <string name="strDescripcionGaleria">I was born in the capital of Nicaragua, my passion has been oil painting, being my favorite oil paintings.
+        As a child I started painting in a natural way, then I was perfecting my technique in professional schools. I have more than 10 years of experience in painting.</string>
+    <string name="strEvento">Event</string>
+    <string name="strTituloEvento">Spring in Oil Exhibition</string>
+    <string name="strCategoriaEvento">Oil art</string>
 
-    <!-- Pantalla evento -->
-    <string name="strTituloEvento">holi</string>
-    <string name="strCategoriaEvento">Arte en Oleo</string>
-    <string name="strUbicacionEvento">Palacio de la Cultura</string>
-    <string name="strDireccionEvento"> Managua, Nicaragua</string>
+    <!--Location Strings-->
+    <string name="strUbicacionEvento">Palace of Culture</string>
+    <string name="strDireccionEvento">District 1. Managua, Nicaragua</string>
     <string name="strSitioWebEvento">www.uni.edu.ni</string>
-    <string name="strTelefonoEvento">123456789</string>
-    <string name="strCategiriaArtista">Artista Plastico</string>
+    <string name="strTelefonoEvento">22705126</string>
+    <!--Artist strings-->
+    <string name="strArtista">Artist</string>
+    <string name="strCategoriaArtista">Plastic Artist</string>
     <string name="strPaisArtista">Nicaragua</string>
-    <!-- fin -->
+    <string name="strAbout">About Me</string>
+    <string name="strAboutme">I was born in the capital of Nicaragua, my passion has been oil painting, being my favorite oil paintings.
+        As a child I was initiated in painting in a natural way, then I was perfecting my technique in professional schools.
+        I have more than 10 years of experience in painting</string>
+    <string name="strCuentaTwitter">\@Alquimid3s</string>.
+
 </resources>

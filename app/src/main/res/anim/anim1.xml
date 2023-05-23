@@ -3,11 +3,10 @@
     <alpha
         android:fromAlpha="0.0"
         android:toAlpha="1.0"
-
         android:interpolator="@android:anim/accelerate_decelerate_interpolator"
         android:duration="600"
         android:repeatMode="reverse"
-        android:repeatCount="6"/>
+        android:repeatCount="6"/>'
     <scale
         android:duration="600"
         android:pivotX="50%"
@@ -18,6 +17,5 @@
         android:toYScale="110%"
         android:fromXScale="100%"
         android:fromYScale="100%"
-        />
-
+    />
 </set>

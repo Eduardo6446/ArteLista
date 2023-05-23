@@ -1,106 +1,94 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
-    tools:context=".activity_Login">
+    tools:context=".Login">
 
-    <ImageView
-        android:id="@+id/imglogoLogin"
-        android:layout_width="270dp"
-        android:layout_height="334dp"
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/imgLog"
+        android:layout_width="278dp"
+        android:layout_height="234dp"
+        android:layout_marginLeft="@dimen/margen3"
+        android:layout_marginRight="@dimen/margen3"
         android:background="@drawable/logo_among"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.493"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.098" />
+        app:layout_constraintVertical_bias="0.131" />
 
-    <TextView
-                android:id="@+id/tvEtiqLogo"
-                android:text="@string/app_name"
-                android:textColor="@color/rojo1"
-                android:textSize="@dimen/tamtexto2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/imglogoLogin"/>
     <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editUserName"
-                android:layout_width="match_parent"
-                android:layout_height="@dimen/margen6"
-                android:hint="@string/hint_UserName"
-                android:textColor="@color/rojo2"
-                android:textColorHint="@color/black"
-                android:background="@color/gris"
-                android:paddingLeft="@dimen/margen1"
-                android:drawableLeft="@drawable/ic_user"
-                android:drawablePadding="@dimen/margen5"
-                android:layout_marginLeft="@dimen/margen3"
-                android:layout_marginRight="@dimen/margen3"
-                android:layout_marginTop="@dimen/margen3"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/tvEtiqLogo"/>
-    <com.google.android.material.textfield.TextInputEditText
-                android:id="@+id/editPassword"
-                android:layout_width="match_parent"
-                android:background="@color/gris"
-                android:layout_height="@dimen/margen6"
-                android:hint="@string/hint_Password"
-                android:textColor="@color/rojo2"
-                android:textColorHint="@color/black"
-                android:paddingLeft="@dimen/margen1"
-                android:drawableLeft="@drawable/ic_password"
-                android:drawablePadding="@dimen/margen5"
-                android:layout_marginLeft="@dimen/margen3"
-                android:layout_marginRight="@dimen/margen3"
-                android:layout_marginTop="@dimen/margen1"
-                android:inputType="textPassword"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editUserName"/>
-    <Button
-                android:id="@+id/btnLogin"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:hint="@string/strLogin"
-                android:textSize="@dimen/tamtexto2"
-                android:textColor="@color/white"
-                android:backgroundTint="@color/rojo1"
-                android:layout_marginLeft="@dimen/margen3"
-                android:layout_marginRight="@dimen/margen3"
-                android:layout_marginTop="@dimen/margen2"
-                app:layout_constraintLeft_toLeftOf="parent"
-                app:layout_constraintRight_toRightOf="parent"
-                app:layout_constraintTop_toBottomOf="@+id/editPassword"/>
-    <TextView
-        android:id="@+id/tvNotienecuenta"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margen2"
-        android:text="@string/strNoTieneCuenta"
-        android:textColor="@color/rojo2"
-        app:layout_constraintHorizontal_bias="0.35"
+        android:id="@+id/editUserName"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margen6"
+        android:hint="@string/hint_UserName"
+        android:drawableLeft="@drawable/ic_user"
+        android:drawablePadding="@dimen/margen5"
+        android:layout_marginLeft="@dimen/margen3"
+        android:layout_marginRight="@dimen/margen3"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
-    <TextView
-        android:id="@+id/tvCreaUnaAqui"
-        android:layout_width="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/editPassword"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margen6"
+        android:hint="@string/hint_Password"
+        android:drawableLeft="@drawable/ic_password"
+        android:drawablePadding="@dimen/margen5"
+        android:layout_marginLeft="@dimen/margen3"
+        android:layout_marginRight="@dimen/margen3"
+        android:inputType="textPassword"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editUserName"/>
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/margen2"
-        android:text="@string/strCreaUna"
-        android:textColor="@color/rojo3"
-        android:textStyle="bold"
-        app:layout_constraintHorizontal_bias="0.1"
-        app:layout_constraintLeft_toRightOf="@id/tvNotienecuenta"
+        android:hint="@string/strLogin"
+        android:textColorHint="@color/white"
+        android:textSize="@dimen/tamtexto2"
+        android:background="@drawable/shape_button"
+        android:layout_marginLeft="@dimen/margen3"
+        android:layout_marginRight="@dimen/margen3"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editPassword"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/registrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margen3"
+        android:layout_marginRight="@dimen/margen3"
+        android:textSize="@dimen/tamtexto2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="@id/Qmark"
+        app:layout_constraintTop_toBottomOf="@id/btnLogin"
+        android:text="@string/Register"
+        android:textAlignment="center"
+        android:textColor="@color/Rosa1"
+        android:textStyle="italic"
+        />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/Qmark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/margen3"
+        android:layout_marginRight="@dimen/margen3"
+        android:text="@string/QMark"
+        android:textColor="@color/Rosa1"
+        android:textSize="@dimen/tamtexto2"
+        app:layout_constraintLeft_toLeftOf="@id/registrar"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toBottomOf="@id/btnLogin" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
