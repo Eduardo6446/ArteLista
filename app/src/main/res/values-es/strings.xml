@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ArteLista</string>
+    <string name="Register">Registrate</string>
+    <string name="QMark">No tienes una cuenta?</string>
+    <string name="HintCreate">Crear Cuenta</string>
+    <string name="hint_UserName">Nombre de Usuario:</string>
+    <string name="hint_Password">Contraseña:</string>
+    <string name="strLogin">Ingresar</string>
+    <string name="stremail">Correo Electronico</string>
+    <string name="strCrearCuenta">Crear Cuenta</string>
+    <string name="ConfirmarPW">Confirmar Contraseña</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_home">Inicio</string>
+    <string name="title_Arte">Arte</string>
+    <string name="title_eventos">Eventos</string>
+    <string name="title_artista">Artista</string>
+    <string name="CreateHeader">Crear Cuenta</string>
+    <string name="strGaleria">Galeria</string>
+    <string name="strNombreArtista">Rafael Pérez</string>
+    <string name="strTituloArte">La Noche Mágica</string>
+    <string name="strLikeMeGusta">8 Me gusta</string>
+    <string name="strPrecioArte">1,200</string>
+    <string name="strMoneda">C$</string>
+    <string name="transition_galeriadet">transicion_galeriadet</string>
+    <!-- Pantalla galería detalle -->
+    <string name="strCategoriaGaleria">Arte en Oleo</string>
+    <string name="strDescripcionGaleria">Nací en la capital de Nicaragua, mi pasión ha sido la pintura en Oleo, siendo mis favoritas las pinturas en oleo.
+        Durante niño me inicié en la pintura de forma nata, luego fui perfeccionando mi técnica en escuelas profesionales. Tengo mas de 10 años de experiencia en pintura.</string>
+    <string name="strEvento">Evento</string>
+    <string name="strTituloEvento">Exposición Primavera en Oleo</string>
+    <string name="strCategoriaEvento">Arte en Oleo</string>
+
+    <!--Location Strings es-->
+    <string name="strUbicacionEvento">Palacio de la Cultura</string>
+    <string name="strDireccionEvento">Distrito 1. Managua, Nicaragua</string>
+    <string name="strSitioWebEvento">www.uni.edu.ni</string>
+    <string name="strTelefonoEvento">22705126</string>
+    <!--Artista Strings es-->
+    <string name="strArtista">Artista</string>
+    <string name="strCategoriaArtista">Artista Plastico</string>
+    <string name="strPaisArtista">Nicaragua</string>
+    <string name="strAbout">Acerca de mi</string>
+    <string name="strAboutme">Nací en la capital de Nicaragua, mi pasión ha sido la pintura en Oleo, siendo mis favoritas las pinturas en oleo.
+        Durante niño me inicié en la pintura de forma nata, luego fui perfeccionando mi técnica en escuelas profesionales.
+        Tengo mas de 10 años de experiencia en pintura</string>
+    <string name="strCuentaTwitter">\@Alquimid3s</string>
+</resources>

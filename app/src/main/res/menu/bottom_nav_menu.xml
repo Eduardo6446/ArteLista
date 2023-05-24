@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_blue_24dp"
+        android:title="@string/title_home" />
+
+    <item
+        android:id="@+id/navigation_arte"
+        android:icon="@drawable/ic_arte_purple_24dp"
+        android:title="@string/title_Arte" />
+
+    <item
+        android:id="@+id/navigation_evento"
+        android:icon="@drawable/ic_event_purple_24dp"
+        android:title="@string/title_eventos" />
+    <item
+        android:id="@+id/navigation_Artista"
+        android:icon="@drawable/ic_artist_purple_24dp"
+        android:title="@string/title_artista" />
+
+</menu>

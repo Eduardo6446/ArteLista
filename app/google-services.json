@@ -1,0 +1,76 @@
+{
+  "project_info": {
+    "project_number": "8629916785",
+    "project_id": "artelista2023-7fe80",
+    "storage_bucket": "artelista2023-7fe80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8629916785:android:1ba32af548fd5d91ed37d0",
+        "android_client_info": {
+          "package_name": "artelista.febase"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8629916785-9mt6cf71e85vf1ao7b1qhr3hqp349ef7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMAPHJx942stfzD7iNNU-171iQMMDeJwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8629916785-9mt6cf71e85vf1ao7b1qhr3hqp349ef7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:8629916785:android:469c10badb60207ded37d0",
+        "android_client_info": {
+          "package_name": "com.example.laboratorio4"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "8629916785-gpcsdhsdrigl1lvj7u8oti1hh4edouf7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.laboratorio4",
+            "certificate_hash": "0658f3adb07cb77e833a40df17719535f7cf6cce"
+          }
+        },
+        {
+          "client_id": "8629916785-9mt6cf71e85vf1ao7b1qhr3hqp349ef7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMAPHJx942stfzD7iNNU-171iQMMDeJwM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "8629916785-9mt6cf71e85vf1ao7b1qhr3hqp349ef7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
